@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="me" fetch="https://github.com/xenxynon/" />
+  <remote name="yaosp" fetch="https://gitlab.com/yaosp/" />
+  <remote name="pixys" fetch="https://github.com/PixysOS-Devices/" />
+  <remote name="lext" fetch="https://github.com/Los-Ext/" />
+  <remote name="me-gl" fetch="https://gitlab.com/xenxynon/" />
+  <remote name="pixys-gl" fetch="https://gitlab.com/PixysOS/" />
+
+  <project path="device/nothing/Spacewar" name="statix" revision="los" />
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="yaosp" revision="fourteen" />
+  <project path="vendor/google/pixel" name="yaosp" remote="me-gl" revision="fourteen" />
+  <project path="kernel/nothing/sm7325" name="kernel_nothing_sm7325" revision="fourteen" />
+  <project path="vendor/nothing/camera" name="vendor_nothing_camera" remote="pixys-gl" revision="fourteen" />
+  <project path="vendor/nothing/Spacewar" name="vendor_nothing_Spacewar" remote="pixys" revision="fourteen" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lext" revision="test" />
+  <project path="packages/apps/Glyph" name="packages_apps_PixysGlyph" remote="pixys" revision="fourteen" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="lext" revision="kek" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="lext" revision="SDC" />
+  <project path="vendor/nothing/native" name="android_frameworks_native" remote="lext" revision="lineage-21.0" />
+
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_vendor_lineage" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_native" />
+</manifest>
