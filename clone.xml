@@ -12,7 +12,7 @@
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_vendor_lineage" />
   <remove-project name="android_frameworks_base" />
-  <remove-project name="android_frameworks_native" />
+  <remove-project name="LineageOS/android_frameworks_native" />
   
   <project path="device/nothing/Spacewar" name="statix" revision="los" />
   <project path="vendor/google/gms" name="vendor_google_gms" remote="yaosp" revision="fourteen" />
