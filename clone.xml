@@ -7,7 +7,13 @@
   <remote name="me-gl" fetch="https://gitlab.com/xenxynon/" />
   <remote name="pixys-gl" fetch="https://gitlab.com/PixysOS/" />
   <remote name="bb" fetch="https://bitbucket.org/xenxynon/" />
-
+  
+  <remove-project name="android_vendor_gapps" />
+  <remove-project name="android_packages_apps_Settings" />
+  <remove-project name="android_vendor_lineage" />
+  <remove-project name="android_frameworks_base" />
+  <remove-project name="android_frameworks_native" />
+  
   <project path="device/nothing/Spacewar" name="statix" revision="los" />
   <project path="vendor/google/gms" name="vendor_google_gms" remote="yaosp" revision="fourteen" />
   <project path="vendor/google/pixel" name="yaosp" remote="me-gl" revision="fourteen" />
@@ -21,9 +27,4 @@
   <project path="vendor/nothing/native" name="android_frameworks_native" remote="lext" revision="lineage-21.0" />
   <project path="vendor/nothing/Spacewar/radio" name="vendor_nothing_spacewar_radio" remote="bb" revision="2.5.5" />
 
-  <remove-project name="android_vendor_gapps" />
-  <remove-project name="android_packages_apps_Settings" />
-  <remove-project name="android_vendor_lineage" />
-  <remove-project name="android_frameworks_base" />
-  <remove-project name="android_frameworks_native" />
 </manifest>
