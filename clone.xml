@@ -6,7 +6,6 @@
   <remote name="lext" fetch="https://github.com/Los-Ext/" />
   <remote name="me-gl" fetch="https://gitlab.com/xenxynon/" />
   <remote name="pixys-gl" fetch="https://gitlab.com/PixysOS/" />
-  <remote name="bb" fetch="https://bitbucket.org/xenxynon/" />
   
   <remove-project name="android_vendor_gapps" />
   <remove-project name="android_packages_apps_Settings" />
@@ -25,5 +24,4 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="lext" revision="kek" clone-depth="1" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="lext" revision="SDC" clone-depth="1" />
   <project path="frameworks/native" name="android_frameworks_native" remote="lext" revision="lineage-21.0" clone-depth="1" />
-  <project path="vendor/nothing/Spacewar/radio" name="vendor_nothing_spacewar_radio" remote="bb" revision="2.5.5" clone-depth="1" />
-</manifest>
+  </manifest>
