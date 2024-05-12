@@ -15,11 +15,11 @@
   <project path="device/nothing/Spacewar" name="statix" remote="me" revision="los" clone-depth="1" />
   <project path="vendor/google/gms" name="vendor_google_gms" remote="yaosp" revision="fourteen" clone-depth="1" />
   <project path="vendor/google/pixel" name="yaosp" remote="me-gl" revision="fourteen" clone-depth="1" />
-  <project path="kernel/nothing/sm7325" name="kernel_nothing_sm7325" remote="pixys" revision="fourteen" clone-depth="1" />
+  <project path="kernel/nothing/sm7325" name="kernel_nothing_sm7325" remote="pixys" revision="fourteen-v2" clone-depth="1" />
   <project path="vendor/nothing/camera" name="vendor_nothing_camera" remote="pixys-gl" revision="fourteen" clone-depth="1" />
-  <project path="vendor/nothing/Spacewar" name="vendor_nothing_Spacewar" remote="pixys" revision="fourteen" clone-depth="1" />
+  <project path="vendor/nothing/Spacewar" name="vendor_nothing_Spacewar" remote="pixys" revision="fourteen-v2" clone-depth="1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="lext" revision="test" clone-depth="1" />
-  <project path="packages/apps/Glyph" name="packages_apps_PixysGlyph" remote="pixys" revision="fourteen" clone-depth="1" />
+  <project path="packages/apps/Glyph" name="packages_apps_PixysGlyph" remote="pixys" revision="fourteen-v2" clone-depth="1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="lext" revision="kek" clone-depth="1" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="lext" revision="SDC" clone-depth="1" />
   <!--  <remove-project name="LineageOS/android_frameworks_native" />
