@@ -2,10 +2,10 @@ rm -rf vendor/gapps packages/apps/Settings vendor/lineage frameworks/base vendor
 git clone https://github.com/xenxynon/device_nothing_Spacewar -b los device/nothing/Spacewar
 git clone https://gitlab.com/yaosp/vendor_google_gms -b fourteen vendor/google/gms
 git clone https://gitlab.com/xenxynon/yaosp -b fourteen vendor/google/pixel
-git clone https://github.com/Los-Ext/kernel_nothing_sm7325 kernel/nothing/sm7325
-git clone https://github.com/PixysOS-Devices/vendor_nothing_camera -b fourteen vendor/nothing/camera
+git clone https://github.com/PixysOS-Devices/kernel_nothing_sm7325 kernel/nothing/sm7325
+git clone https://gitlab.com/PixysOS/vendor_nothing_camera -b fourteen vendor/nothing/camera
 git clone https://github.com/PixysOS-Devices/vendor_nothing_Spacewar vendor/nothing/Spacewar
-git clone https://github.com/Los-Ext/packages_apps_Settings -b test packages/apps/Settings
+git clone https://github.com/Los-Ext/android_packages_apps_Settings -b test packages/apps/Settings
 git clone https://github.com/PixysOS-Devices/packages_apps_PixysGlyph packages/apps/Glyph
 git clone https://github.com/Los-Ext/android_frameworks_base -b kek frameworks/base
 git clone https://github.com/Los-Ext/android_vendor_lineage -b SDC vendor/lineage
