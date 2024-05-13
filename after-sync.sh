@@ -11,5 +11,5 @@ git clone https://github.com/Los-Ext/android_frameworks_base -b kek frameworks/b
 git clone https://github.com/Los-Ext/android_vendor_lineage -b SDC vendor/lineage
 git clone https://github.com/Los-Ext/android_frameworks_native -b lineage-21.0 frameworks/native --depth 1
 git clone https://bitbucket.org/xenxynon/vendor_nothing_spacewar_radio -b 2.5.5 vendor/nothing/Spacewar/radio --depth 1
-git clone https://github.com/xenxynon/manifestt -b lineage-19.1 art
+git clone https://github.com/crdroidandroid/android_art art
 sed -i 's/PTC_ub1/LA.UM.9.14.r1-24200-LAHAINA.QSSI13.0/g' kernel/nothing/sm7325/arch/arm64/configs/vendor/lahaina-qgki_defconfig
