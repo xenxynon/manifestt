@@ -1,4 +1,4 @@
-rm -rf vendor/gapps packages/apps/Settings vendor/lineage frameworks/base vendor/gapps packages/apps/Settings frameworks/base vendor/nothing* device/nothing* kernel/nothing* frameworks/native 
+rm -rf vendor/gapps/* packages/apps/Settings vendor/lineage frameworks/base vendor/gapps packages/apps/Settings frameworks/base vendor/nothing* device/nothing* kernel/nothing* frameworks/native 
 git clone https://github.com/xenxynon/device_nothing_Spacewar -b los device/nothing/Spacewar
 git clone https://gitlab.com/yaosp/vendor_google_gms -b fourteen vendor/google/gms
 git clone https://gitlab.com/xenxynon/yaosp -b fourteen vendor/google/pixel
