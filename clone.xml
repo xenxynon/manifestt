@@ -13,7 +13,7 @@
   </project>
   <project path="frameworks/base" name="penguin" remote="me" revision="unity"/>
   <project path="packages/apps/Settings" name="penguin_set" remote="me" revision="bat"/>  
-  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3-1" remote="me" revision="unity"/>
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3-1" remote="me" revision="omni"/>
 
   <!-- Example for removing and adding projects -->
   <!-- <remove-project name="LineageOS/android_frameworks_native" /> -->
