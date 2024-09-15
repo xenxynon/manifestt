@@ -8,7 +8,7 @@
   <remove-project name="android_packages_apps_Updater" />
   <remove-project name="android_packages_apps_Settings" />
   <project path="packages/apps/Updater" name="pg_up" remote="me" revision="unity"/>
-  <project path="vendor/aospa" name="android_vendor_aospa" remote="me" revision="unity">
+  <project path="vendor/aospa" name="android_vendor_aospa" remote="me" revision="ksu">
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="frameworks/base" name="penguin" remote="me" revision="unity"/>
