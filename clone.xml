@@ -8,7 +8,7 @@
   <remove-project name="android_packages_apps_Updater" />
   <remove-project name="android_packages_apps_Settings" />
   <remove-project name="android_vendor_google_gms" />
-  <remove-project name=" android_vendor_google_pixel" />
+  <remove-project name="android_vendor_google_pixel" />
   <project path="vendor/google/pixel" name=" android_vendor_google_pixel" remote="me" revision="patch-1"/>
   <project path="vendor/google/gms" name="xenxynon/android_vendor_google_gms" remote="gitlab" revision="uvite"/>
   <project path="packages/apps/Updater" name="pg_up" remote="me" revision="unity"/>
