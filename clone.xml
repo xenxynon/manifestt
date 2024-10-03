@@ -16,7 +16,6 @@
     <linkfile src="build.sh" dest="rom-build.sh" />
   </project>
   <project path="frameworks/base" name="penguin" remote="me" revision="unity"/>
-  <project path="packages/apps/Settings" name="penguin_set" remote="me" revision="bat"/>  
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3-1" remote="me" revision="unity"/>
   <project path="packages/apps/Settings" name="penguin_set" remote="me" revision="bat"/>  
   <project path="vendor/custom/stuff" name="vendor_custom_stuff" remote="me" revision="Main"/>  
